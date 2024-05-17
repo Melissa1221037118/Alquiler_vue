@@ -2,6 +2,11 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
+    <router-link to="/clientes">Clientes</router-link> |
+      <router-link to="/vehiculos">Vehiculos</router-link> |
+      <router-link to="/contratos_de_alquiler">Contratos de Alquiler</router-link> |
+      <router-link to="/pagos">Pagos</router-link> |
+      <router-link to="/reservas">Reservas</router-link>
   </nav>
   <router-view/>
 </template>
